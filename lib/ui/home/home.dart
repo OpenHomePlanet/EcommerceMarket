@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'top_bar.dart';
+
 /// user landing page
 class Home extends StatelessWidget {
   static const route = 'Home';
@@ -7,6 +9,8 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold(
+      body: TopBar(),
+    );
   }
 }

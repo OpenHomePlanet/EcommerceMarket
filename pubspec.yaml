@@ -69,6 +69,20 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/menu/
+    - assets/images/icons/
+  fonts:
+    - family: QuickSand
+      fonts:
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+          weight: 700
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 800
 
 flutter_gen:
   # By default, the generate files are in `lib/gen/`

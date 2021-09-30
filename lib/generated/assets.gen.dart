@@ -10,7 +10,14 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  $AssetsImagesIconsGen get icons => const $AssetsImagesIconsGen();
   $AssetsImagesMenuGen get menu => const $AssetsImagesMenuGen();
+}
+
+class $AssetsImagesIconsGen {
+  const $AssetsImagesIconsGen();
+
+  String get cartShoppingIcon => 'assets/images/icons/cart_shopping_icon.svg';
 }
 
 class $AssetsImagesMenuGen {

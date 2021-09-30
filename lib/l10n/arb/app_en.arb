@@ -3,5 +3,17 @@
   "goodLuck": "Home",
   "@goodLuck": {
     "description": "Home"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login"
+  },
+  "more": "More",
+  "@more": {
+    "description": "More"
+  },
+  "cart": "Cart",
+  "@cart": {
+    "description": "Cart"
   }
 }

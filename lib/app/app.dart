@@ -1,4 +1,6 @@
+import 'package:ecommerce_market/generated/fonts.gen.dart';
 import 'package:ecommerce_market/provider/menu.dart';
+import 'package:ecommerce_market/ui/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -37,12 +39,13 @@ class AppView extends StatelessWidget {
         supportedLocales: const [
           Locale('en', ''), // English, no country code.
         ],
+        theme: ThemeData(fontFamily: FontFamily.quickSand),
         darkTheme: ThemeData.dark(),
         home: MultiProvider(
             providers: [
               ChangeNotifierProvider.value(value: Menu())
             ],
-          child: const Text('Hello'),
+          child: const Home(),
         ));
   }
 }
