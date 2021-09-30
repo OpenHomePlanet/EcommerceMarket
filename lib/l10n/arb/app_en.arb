@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "goodLuck": "Home",
+  "@goodLuck": {
+    "description": "Home"
+  }
+}
