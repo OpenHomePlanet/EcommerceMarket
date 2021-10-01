@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'top_bar.dart';
+import '../widgets/top_bar.dart';
 
 /// user landing page
 class Home extends StatelessWidget {
