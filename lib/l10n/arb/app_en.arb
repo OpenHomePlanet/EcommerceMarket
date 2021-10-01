@@ -15,5 +15,13 @@
   "cart": "Cart",
   "@cart": {
     "description": "Cart"
+  },
+  "appName": "EcoMarket",
+  "@appName": {
+    "appName": "app name"
+  },
+  "mainSearchHint": "Search for Products, Brands and More",
+  "@mainSearchHint": {
+    "mainSearchHint": "Search"
   }
 }

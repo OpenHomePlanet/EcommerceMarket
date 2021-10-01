@@ -83,6 +83,18 @@ flutter:
           weight: 700
         - asset: assets/fonts/Quicksand-Bold.ttf
           weight: 800
+    - family: Poppins
+      fonts:
+        - asset: asset/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: asset/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: asset/fonts/poppins/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: asset/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
 
 flutter_gen:
   # By default, the generate files are in `lib/gen/`

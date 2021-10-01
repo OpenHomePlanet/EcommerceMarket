@@ -39,12 +39,9 @@ class AppView extends StatelessWidget {
         supportedLocales: const [
           Locale('en', ''), // English, no country code.
         ],
-        theme: ThemeData(fontFamily: FontFamily.quickSand),
-        darkTheme: ThemeData.dark(),
+        theme: ThemeData(fontFamily: FontFamily.poppins,),
         home: MultiProvider(
-            providers: [
-              ChangeNotifierProvider.value(value: Menu())
-            ],
+          providers: [ChangeNotifierProvider.value(value: Menu())],
           child: const Home(),
         ));
   }
